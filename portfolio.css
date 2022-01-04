@@ -1,0 +1,28 @@
+body{
+    font-family: 'Spline Sans', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.orng-clr{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+   background-color: #df4e0b;
+   border-radius: 5px;
+   padding: 10px 40px;
+   color: seashell;
+   font-weight: 700;
+   
+}
