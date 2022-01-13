@@ -1,5 +1,6 @@
 body{
     font-family: 'Spline Sans', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -7,8 +8,9 @@ h1{
 .orng-clr{
     color: orange;
 }
-section{
+.flex{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -17,12 +19,48 @@ section{
 .half-width img{
     width: 80%;
 }
-.link-button{
+.mail-to{
     text-decoration: none;
-   background-color: #df4e0b;
-   border-radius: 5px;
-   padding: 10px 40px;
-   color: seashell;
-   font-weight: 700;
-   
+    color: white;
+    background-image: linear-gradient(orange, tomato, orange);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700; 
+}
+#banner{
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+}
+#dream{
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 150px;
+}
+.right{
+    padding-right: 100px;
+}
+.center{
+    text-align: center;
+}
+#experience-area{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience{
+    box-shadow: 10px 10px 40px gray;
+    margin: 0 5% 10%;
+    padding: 5px 20px 50px;
+    border-radius: 5px;
+}
+#border-color-1{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan, blue);
+    border-image-slice: 1;
+}
+#border-color-2{
+    border-left: 5px solid;
+    border-image: linear-gradient(purple, salmon, purple);
+    border-image-slice: 1;
 }
